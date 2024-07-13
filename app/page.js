@@ -15,7 +15,7 @@ export default function Home() {
 
   const getCategoryList = () => {
     GlobalApi.getCategory().then(resp => {
-      console.log(resp);
+      console.log(resp.categories);
     })
   }
 
